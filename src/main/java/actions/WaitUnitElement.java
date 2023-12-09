@@ -19,7 +19,7 @@ public class WaitUnitElement {
 
     public static boolean isVisible(WebDriver webDriver, By locator){
         try{
-            WebDriverWait webDriverWait = new WebDriverWait(webDriver, 5);
+            WebDriverWait webDriverWait = new WebDriverWait(webDriver, 10);
             webDriverWait.until(ExpectedConditions.visibilityOf(webDriver.findElement(locator)));
             return true;
         }catch (Exception e ){

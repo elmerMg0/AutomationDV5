@@ -10,7 +10,7 @@ public class DashboardTodo {
 
     //public static By diplomadV5Btn = By.id("//*[@id=\"ItemId_4173952\"]/table/tbody/tr/td[3]");
     public static By newTaskInput = By.id("NewItemContentInput");
-    public static By diplomadV5Btn = By.className("MainTableLeft");
+    public static By diplomadV5Btn = By.xpath("//*[@id=\"ItemId_4173952\"]/table/tbody/tr/td[2]");
 
     public static By addNewTaskBtn = By.id("NewItemAddButton");
 }
